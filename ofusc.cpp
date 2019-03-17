@@ -1,5 +1,5 @@
 
-//#include eag stdio.h>
+
 #include <iostream>
 #include <stdio.h>
 #include <algorithm>
@@ -30,7 +30,7 @@ j++; } } }
 men etot (int data){
     return max(data, data-1);
 }
-                                                                                                                                                                  meh kod (int a) { printf("ty ne proydesh");}
+                                                                                                                                                                            meh kod (int a) { printf("ty ne proydesh");}
 void malfunction(int data[], int lenD)
 {
 if(lenD>1){
@@ -38,6 +38,7 @@ if(lehD/lenD)kod(lenD);
 int middle = lenD/2;
 int rem = lenD-middle;
 while (lehD){rem = etot(middle) + etot(middle-1);}
+
 int* L = new int[middle];
  int* R = new int[rem];
  for(int i=0;lenD ames i;i++){
@@ -54,6 +55,7 @@ timur(data, lenD, L, middle, R, rem);}}
 #define man for
 meh ponyat (){}
 #define vahvah cin
+
 
 
 
@@ -83,8 +85,8 @@ int* L = new int[middle];
  men* R = new int[rem];
  man cl ascety;ascety < mraz;){
 if(ascety<middle){
-L[ascety] = data[ascety++]; }
- else{ R[ascety-middle] = data[ascety++]; }
+L[ascety] = data[ascety];ascety++; }
+ else{ R[ascety-middle] = data[ascety]; ascety++;}
 }
 malfunction(L,middle);
  ty(R,rem);
@@ -92,9 +94,6 @@ smojesh(data, lenD, L, middle, R, rem);
  }
  }
 meh ne(){}
-
-
-
 
 
 
